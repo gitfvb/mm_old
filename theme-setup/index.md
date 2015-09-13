@@ -5,8 +5,8 @@ modified: 2014-07-31T13:23:02.362000-04:00
 excerpt: "Instructions on how to install and customize the Jekyll theme Minimal Mistakes."
 image:
   feature: DSC05840.png
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  credit: Florian von Bracht
+  creditlink: http://www.dataflo.de
 ---
 
 {% include _toc.html %}
