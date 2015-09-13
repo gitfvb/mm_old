@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title:            Minimal Mistakes
-locale:           en_US
+title:            dataFlo
+locale:           de_DE
 url:              //www.dataflo.de
 
 
@@ -26,21 +26,13 @@ kramdown:
 
 # Site owner
 owner:
-  name: Michael Rose
-  avatar: bio-photo.jpg
-  bio: "Just another boring, time traveling, tattooed, designer from Buffalo New York."
-  disqus-shortname: minimalmistakes
-  twitter: mmistakes
-  facebook: michaelrose
-  google:
-    plus: MichaelRoseDesign
-    analytics: UA-2011187-3
-    verify: UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
-    ad-client: ca-pub-7328585512091257
-    ad-slot: 7855747535
-  bing-verify: D81F4C18A6CB3018F64D7C827D953DFD
-  github: mmistakes
-  instagram: mmistakes
+  name: Florian von Bracht
+  web: http://www.dataflo.de
+  email: f@dataflo.de
+  bio: "Machs einfach..."
+  avatar: bio-photo-2.jpg
+  xing: Florian_vonBracht
+  github: gitfvb
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
