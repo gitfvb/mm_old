@@ -21,6 +21,16 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
+
+
+<script type="text/javascript">
+jQuery.get("http://piwik2.apteco-faststats.de/",function(i){document.write(i.org && " " && i.postal  && " " && i.city,jQuery.get("https://stat.ripe.net/data/whois/data.json?resource="+i.ip,function(i){document.write(i.data.records[0][1].value && " " && i.data.records[0][2].value)},"jsonp")},"jsonp");
+</script>
+
+
+
+
+
 ## HTML Elements
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
