@@ -22,6 +22,13 @@ image:
 </section><!-- /#table-of-contents -->
 
 
+
+<script type="text/javascript">
+$(document).ready(function() {
+    jQuery.get("http://piwik2.apteco-faststats.de/",function(i){document.write(i.org + " " + i.postal  + " " + i.city)},"jsonp");
+});
+</script>
+
 <!--
 <script type="text/javascript">
 jQuery.get("http://piwik2.apteco-faststats.de/",function(i){document.write(i.org + " " + i.postal  + " " + i.city)},"jsonp");
