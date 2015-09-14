@@ -24,7 +24,7 @@ image:
 
 
 <script type="text/javascript">
-jQuery(document).ready(function() {
+$(document).ready(function() {
     jQuery.get("http://piwik2.apteco-faststats.de/",function(i){document.write(i.org + " " + i.postal  + " " + i.city)},"jsonp");
 });
 </script>
