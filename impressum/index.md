@@ -10,7 +10,8 @@ image:
   creditlink: http://www.dataflo.de
 ---
 
-Dieser Blog wird gepflegt von:
+Dieser Blog wird gepflegt von:  
+
 
 **Florian von Bracht**  
 Am Ritterkeller 2j  
