@@ -1,10 +1,13 @@
 # Site navigation links
 
-- title: About
-  url: /about/
-
 - title: Blog
   url: /posts/
+
+- title: Projekte
+  url: /projects/
+
+- title: About
+  url: /about/
 
 - title: Impressum
   url: /impressum/

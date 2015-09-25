@@ -10,6 +10,10 @@ image:
   creditlink: http://www.dataflo.de
 ---
 
-Florian von Bracht
+Dieser Blog wird gepflegt von:
+
+**Florian von Bracht**
 Am Ritterkeller 2j
 61118 Bad Vilbel
+f@dataflo.de
++49 177 6744788

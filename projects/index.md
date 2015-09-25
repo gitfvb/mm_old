@@ -10,20 +10,22 @@ image:
   creditlink: http://www.dataflo.de
 ---
 
-# Und wieder so ein technik-interessierter Typ...
+
+# Projekte
+ * Github-Projekte
+
+
+# Veröffentlichungen / Dokumente
+ * Thesis
+ * Studienarbeit
+ * Paper
+
+
+Und wieder so ein technik-interessierter Typ...
 
 Eigentlich komme ich gebürtig aus dem kleinen und beschaulichen Dorf Abbenrode bei Braunschweig. Dort habe ich eine wundervoll heile Welt gehabt. Nach dem Aufbau von vielen Interessen (Blockflöte spielen, Lesen, Astronomie, Gitarre spielen) habe ich mein Hobby gefunden, dass mich für mein Leben geprägt hat: Pfadfinder. Es war einfach eine tolle Gemeinschaft, in der man viel lernen konnte. Dort habe ich später selbst eine Sippe geleitet und auch später zusammen mit meinen Freunden die Stammesführung übernommen.
 
 Inzwischen bin ich selbst Familien-Vater.
-
-# Wer ist denn dann Florian Friedrichs?
-
-Wir leben ja in einer modernen Gesellschaft und so habe ich den Namen meiner Frau angenommen. Vorher lautete mein Name "Florian Friedrichs".
-
-
-
-
-
 
 Minimal Mistakes is responsive Jekyll theme with large featured images and solid typography. As the name implies the styling is fairly minimal to make it easier for you to build on top of.
 
