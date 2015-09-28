@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample Post
+title: Daten sind das wichtigste Gut
 excerpt: "Daten sind mir wichtig. Hier eine kurze Zusammenfassung, warum dies so ist."
 modified: 2015-09-26
 tags: []
