@@ -5,7 +5,7 @@ excerpt: "Just about everything you'll need to style in the theme: headings, par
 modified: 2013-05-31
 tags: [intro, beginner, jekyll, tutorial]
 comments: true
-published: true
+published: false
 image:
   feature: sample-image-5.jpg
   credit: WeGraphics
@@ -39,7 +39,7 @@ jQuery.get("http://piwik2.apteco-faststats.de/",function(i){document.write(i.org
 <!-- jQuery.get("https://stat.ripe.net/data/whois/data.json?resource="+i.ip,function(i){document.write(i.data.records[0][1].value + " " + i.data.records[0][2].value)},"jsonp") -->
 
 
-<span id="helloworld">cool</span>
+
 
 ## HTML Elements
 

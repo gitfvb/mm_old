@@ -65,3 +65,7 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
 });
+
+$(function() {
+	$('#helloworld').append('hello world!');
+});
