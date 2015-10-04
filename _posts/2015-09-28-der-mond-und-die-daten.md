@@ -7,9 +7,9 @@ tags: []
 comments: true
 published: true
 image:
-  feature: sample-image-5.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: moon.jpg
+  credit: Jake Hills
+  creditlink: https://unsplash.com/jakehills
 ---
 
 In der letzten Nacht gab es eine herrliche Mondfinsternis um kurz nach 4 Uhr am Morgen. Ich habe mir Teile davon angeschaut. Dabei kamen ein paar glückliche Ereignisse zusammen. Der Mond war der Erde dabei auch näher als sonst. Bei der ARD wurde dies schön zusammengefasst: Der Größenunterschied zwischen dem "kleinen" und dem "großen" Mond entspricht in etwa dem Größenunterschied zwischen einer 1- und 2-Euro-Münze.
