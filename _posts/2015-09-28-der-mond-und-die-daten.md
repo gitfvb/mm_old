@@ -23,150 +23,79 @@ Die nächste totale Mondfinsternis wird in Deutschland übrigens erst wieder am 
 
 
 
-
-<link rel="stylesheet" href="css/highlightjs/default.css">
-
 <style>
-
-
-  section {
-    padding: 15px;
-    margin: 15px;
-    border-bottom: thin solid black;
-  }
-
-
-  .legend {
-    fill: #ff00ff;
-    stroke: #ff00ff;
-  }
-
-  .timer {
-    fill: #00ff7f;
-    stroke: #00ff7f;
-  }
-
-  .code {
-    white-space: pre;
-  }
-
-  .code.inline {
-    white-space: pre-wrap;
-    background: #f0f0f0;
-    color: black;
-
-    padding: 3px;
-  }
-
-  .highlight {
-    background: black;
-    color: #00ff7f;
-
-    font-size: 18px;
-
-    padding: 15px;
-    margin: 15px;
-    line-height: 28px;
-
-    border: thin solid #333333;
-  }
-
-  .text-center {
-    text-align: center;
-  }
-
-  #moon-viz {
-    background: black;
-    border: thin solid black;
-  }
-
-  #earth {
-    fill: #000099;
-  }
-
-  #alternate-view {
-    position: absolute;
-    left: 900px;
-    width: 400px;
-    height: 500px;
-    border: thin solid black;
-    background: black;
-  }
-
-  .continent {
-    fill: green;
-    stroke: green;
-    stroke-width: 3;
-  }
-
-  .bottom.earth {
-    z-index: 1001;
-  }
-
-  .bottom.moon {
-    z-index: 101;
-  }
-
-  .star {
-    stroke-width: 1;
-    fill: white;
-    stroke: white;
-  }
-
-    .star.new {
-      fill: blue;
-      stroke: blue;
-      stroke-width: 2;
-    }
-
-    .star.old {
-      fill: tomato;
-      stroke: tomato;
-      stroke-width: 2;
-    }
-
-  .star.dim {
-    fill: #505050;
-    stroke: #505050;
-  }
-
-  .no-svg {
-    background: red;
-    color: white;
-    text-align: center;
-  }
-
+svg {
+  font: 10px sans-serif;
+}
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
 </style>
 
 
-
-
-
-<svg id="moon-viz">
-
-  <g id="starCanvas"></g>
-
-  <text x="20" y="40" class="legend">Fig A</text>
-  <text x="770" y="40" class="phase timer"></text>
-
-</svg>
-
-<svg id="alternate-view">
-
-  <text x="350" y="40" class="legend">Fig a</text>
-  <text x="20" y="40" class="phase timer"></text>
-
-
-  <text x="350" y="270" class="legend">Fig b</text>
-  <text x="20" y="270" class="eclipse timer" id="eclipse-timer">Month 1</text>
-
-  <path id="earth-shadow" style="stroke: grey" />
-  <path id="moon-shadow" style="stroke: grey" />
-</svg>
-
-<div id="no-svg"></div>
+<script>
+var n = 40,
+    random = d3.random.normal(0, .2),
+    data = d3.range(n).map(random);
+var margin = {top: 20, right: 20, bottom: 20, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+var x = d3.scale.linear()
+    .domain([0, n - 1])
+    .range([0, width]);
+var y = d3.scale.linear()
+    .domain([-1, 1])
+    .range([height, 0]);
+var line = d3.svg.line()
+    .x(function(d, i) { return x(i); })
+    .y(function(d, i) { return y(d); });
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+svg.append("defs").append("clipPath")
+    .attr("id", "clip")
+  .append("rect")
+    .attr("width", width)
+    .attr("height", height);
+svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + y(0) + ")")
+    .call(d3.svg.axis().scale(x).orient("bottom"));
+svg.append("g")
+    .attr("class", "y axis")
+    .call(d3.svg.axis().scale(y).orient("left"));
+var path = svg.append("g")
+    .attr("clip-path", "url(#clip)")
+  .append("path")
+    .datum(data)
+    .attr("class", "line")
+    .attr("d", line);
+tick();
+function tick() {
+  // push a new data point onto the back
+  data.push(random());
+  // redraw the line, and slide it to the left
+  path
+      .attr("d", line)
+      .attr("transform", null)
+    .transition()
+      .duration(500)
+      .ease("linear")
+      .attr("transform", "translate(" + x(-1) + ",0)")
+      .each("end", tick);
+  // pop the old data point off the front
+  data.shift();
+}
+</script>
 
 <script src="assets/js/vendor/d3.min.js"></script>
-<script src="assets/js/custom/d3-moon-viz.js"></script>
-<script src="assets/js/vendor/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
