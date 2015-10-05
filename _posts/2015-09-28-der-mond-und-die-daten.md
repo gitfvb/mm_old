@@ -28,29 +28,6 @@ Die nächste totale Mondfinsternis wird in Deutschland übrigens erst wieder am 
 
 <style>
 
-  html, body {
-    background: #ffec8b;
-    background: palegoldenrod;
-    color: brown;
-    color: black;
-    font-size: 18px;
-    line-height: 27px;
-    font-family: sans-serif, times;
-  }
-
-  ul,ol li {
-    margin: 7px 0;
-  }
-
-  a {
-    color: blue;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-    a:hover {
-      text-decoration: underline;
-    }
 
   section {
     padding: 15px;
@@ -58,15 +35,6 @@ Die nächste totale Mondfinsternis wird in Deutschland übrigens erst wieder am 
     border-bottom: thin solid black;
   }
 
-  .heading {
-    font-weight: bold;
-  }
-
-  .disclaimer {
-    font-size: 16px;
-    font-style: italic;
-    margin: 5px 0;
-  }
 
   .legend {
     fill: #ff00ff;
@@ -197,31 +165,6 @@ Die nächste totale Mondfinsternis wird in Deutschland übrigens erst wieder am 
 </svg>
 
 <div id="no-svg"></div>
-
-<pre>
-<code class="javascript code">			
-// select the moon using 'select'. 'select' returns only one element
-var moon = d3.select("#moon");
-
-// calculate the co-ordinates
-// x = somevalue; y = somevalue;
-
-// now update the position using our selection
-moon.attr("cx", x).attr("cy", y);
-
-// ------------------------------------------------------------------
-
-// With 'selectAll' we can select all the elements for the selection
-// Here there are 2 timer elements in the page; returns both
-var timer = d3.selectAll(".phase.timer");
-
-// calculate the time
-// time = somevalue;
-
-// now update 'all' the elements from the 'selectAll'.
-timer.text( time );
-</code>
-</pre>
 
 <script src="assets/js/vendor/d3.min.js"></script>
 <script src="assets/js/custom/d3-moon-viz.js"></script>
