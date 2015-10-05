@@ -198,58 +198,6 @@ Die nächste totale Mondfinsternis wird in Deutschland übrigens erst wieder am 
 
 <div id="no-svg"></div>
 
-<section>
-
-  <h1 class="heading">About</h1>
-
-  This tutorial aims to give a brief introduction to d3.js with which Moon phase visualizer demo is built.
-  <ul>
-    <li>To check the actual demo <a href="index.html">go here</a>.</li>
-    <li>Check the <a href="https://github.com/palerdot/moon-phase-visualizer" target="_blank">Github page</a> of this project.</li>
-  </ul>
-
-</section>
-
-<section>
-
-  <h1 class="heading">Introduction</h1>
-
-  This d3 tutorial gives a brief introduction to the following.
-
-  <ul>
-    <li>d3 Selectors</li>
-    <li>d3 Data Joins</li>
-  </ul>
-
-  The above are just a fraction of the actual d3 library functionalities. The two topics are introduced here because the Moon Phase Visualizer demo is built with a basic usage of above functionalities of d3.js. This tutorial is intentionally short and aimed at just giving a good brief introduction for d3.js beginners.
-
-</section>
-
-<section>
-
-  <h1 class="heading">What is d3.js?</h1>
-
-  <ul>
-    <li>d3.js associates data to an element or group of elements in the html page. Exactly what its definition says - Data Driven Documents.</li>
-    <li>All the resulting complex visualizations (graphs, charts, maps etc) associated with d3.js are the result of how we choose to represent that data.</li>
-  </ul>
-
-</section>
-
-<section>
-
-  <h1 class="heading">d3 Selectors</h1>
-
-  <ul>
-    <li>d3.js helps to select elements from html page using two functions - <span class="code inline">select()</span>, <span class="code inline">selectAll()</span></li>
-    <li><span class="code inline">select()</span> selects only one element. If there are more than one element for the given selector it selects the first one only.</li>
-    <li><span class="code inline">selectAll()</span> selects all the elements for that selector. d3.js uses css style selectors. If you are familiar with selecting elements with jQuery, d3 selectors are almost the same.</li>
-  </ul>
-
-  <div>
-  When you select html element(s) with the above functions, you can do all the fancy things like change its attributes, style etc. For example, in the Moon Phase Visualizer demo, the rotation of moon is just selecting the circle element (moon) and just update the x and y position over the period of the time.
-  </div>
-
 <pre>
 <code class="javascript code">			
 // select the moon using 'select'. 'select' returns only one element
