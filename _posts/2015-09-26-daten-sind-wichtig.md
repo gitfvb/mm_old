@@ -7,14 +7,14 @@ tags: []
 comments: true
 published: true
 image:
-  feature: sample-image-5.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: photo-1429051883746-afd9d56fbdaf.jpg
+  credit: Luis Llerena
+  creditlink: https://unsplash.com/negativespace
 ---
 
 Daten sind das wichtigste Gut, das wir haben. Das Thema interessiert mich, ich brenne dafür. Natürlich können Menschen auch ohne Daten leben. Und sie sind nicht wichtiger als wir Menschen, aber sie bestimmen, wie wir zusammen arbeiten und leben. Und wir nutzen sie, um Entscheidungen (über uns) zu treffen.
 
-Es gibt Leute, die bezeichnen Daten als den Treibstoff des neuen Jahrhunderts. Das mag zwar für die digitale Wirtschaft gelten, aber damit komme ich mit dem Auto keinen Kilometer weiter und kann davon auch nicht satt werden.
+Es gibt Leute, die bezeichnen Daten als den Treib- oder Rohstoff des neuen Jahrhunderts. Das mag zwar für die digitale Wirtschaft gelten, aber damit komme ich mit dem Auto keinen Kilometer weiter und kann davon auch nicht satt werden. Jedoch kann z.B. ein Landwirt mehr über seine Äcker, über das Wetter und weitere Einfluß-Faktoren lernen und so den Ertrag steigern. So hinkt der Vergleich von Daten mit "Treibstoff" nicht ganz. Ich würde aber eher den Ausdruck des "Beschleunigers" wählen.
 
 Gerade z.B. treffen sich die höchsten Staats-Chefs der Welt in New York. Diese Frauen und Männer treffen die weitreichendsten Entscheidungen, was das Klima angeht, genauso wie für Krieg und Frieden.
 
