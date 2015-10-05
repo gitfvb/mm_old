@@ -26,4 +26,4 @@ Weil die Menschen sich alle Ereignisse akribisch festhalten und daran erkannt ha
 
 Die nächste totale Mondfinsternis wird in Deutschland übrigens erst wieder am 27. August 2018 sichtbar sein. Hoffen wir, dass das Wetter wieder mitspielt.
 
-<div id="d3-line">test</div>
+<div id="d3-line"></div>
