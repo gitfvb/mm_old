@@ -8,7 +8,7 @@ var size = {
       height: window.innerHeight || document.body.clientHeight
     }
 var margin = {top: 20, right: 20, bottom: 20, left: 40},
-    width = (size.width * 0,375) - margin.left - margin.right,
+    width = (size.width * 0.375) - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 var x = d3.scale.linear()
     .domain([0, n - 1])
