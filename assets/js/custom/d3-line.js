@@ -13,7 +13,7 @@ var y = d3.scale.linear()
 var line = d3.svg.line()
     .x(function(d, i) { return x(i); })
     .y(function(d, i) { return y(d); });
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#d3-line").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")

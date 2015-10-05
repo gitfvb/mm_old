@@ -25,3 +25,5 @@ Und woher wusste man das alles so genau?
 Weil die Menschen sich alle Ereignisse akribisch festhalten und daran erkannt haben, wie der ~~Hase~~ Mond läuft. So lässt sich die Laufbahn präzise vorhersagen... Darauf werde ich in Zukunft genauer eingehen, aber hier haben Menschen manuell Daten erfasst und ihre (richtigen) Schlüsse daraus gezogen.
 
 Die nächste totale Mondfinsternis wird in Deutschland übrigens erst wieder am 27. August 2018 sichtbar sein. Hoffen wir, dass das Wetter wieder mitspielt.
+
+<div id="d3-line"></div>
