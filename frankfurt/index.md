@@ -47,6 +47,10 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 * [Flohmarkt am Frischezentrum](http://www.flohmarkt-frankfurt.com/flohmarkt-frischezentrum-frankfurt-kalbach/)  Den Keller mal etwas leerer machen und dabei Geld verdienen. Zwar liegt der Gewinn bekanntermaßen im Einkauf, aber am Frischezentrum ist immer richtig viel los. So kann man einen guten Umsatz erreichen. Empfehlenswert: Vorher online für einen Platz registrieren.
 * Darüber hinaus gibt es in der Umgebung viele Feste, bei denen sich ein Besuch lohnt. Hier in der Region heißt dies meistens "Kerb". Letztens war ich auf dem Weinfest in der Bad Vilbeler Burg. Dies kann ich nur stark empfehlen.
 
+# Parken in Frankfurt
+ * Gerbermühle
+ * Westhafen
+ * Zoo Frankfurt
 
 # Messen
 
