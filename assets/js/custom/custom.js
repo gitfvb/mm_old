@@ -6,14 +6,18 @@ function responsiveFn(objID, margin) {
     if ($.assocArraySize(margin) != 4) {
       var margin = {top: 0, right: 0, bottom: 0, left: 0};
     }
+  } else {
+    var margin = {top: 0, right: 0, bottom: 0, left: 0};
   }
 
    width = $( window ).width();
    height = $( window ).height();
    factor = 0.35;
 
+   newWidth = Math.floor(width*factor)+margin['left']+margin['right'];
+
   // Executing Both width() and height()
-  document.getElementById(objID).setAttribute('width',Math.floor(width*factor)+margin['left']+margin['right']);
+  document.getElementById(objID).setAttribute('width',newWidth);
   //document.getElementById(objID).setAttribute('height',Math.floor(height*factor)+margin['top']+margin['bottom']);
 
   // Do a custom code here
@@ -21,7 +25,7 @@ function responsiveFn(objID, margin) {
   // document.getElementById('widthID').innerHTML+=" -> This is an Iphone Screen Size";
 
   //  }
-  return width;
+  return newWidth;
  }
 
 // get the size of associative arrays
