@@ -11,6 +11,7 @@ image:
   credit: Jake Hills
   creditlink: https://unsplash.com/jakehills
 customjs:
+  - http://www.dataflo.de/assets/js/custom/custom.js
   - http://www.dataflo.de/assets/js/custom/d3-line.js
 customcss:
   - http://www.dataflo.de/assets/css/custom/line.css
