@@ -58,3 +58,6 @@ function tick() {
   // pop the old data point off the front
   data.shift();
 }
+
+// load() event and resize() event are combined
+$(window).ready(responsiveFn('d3-line')).resize(responsiveFn('d3-line'));

@@ -69,3 +69,23 @@ $(document).ready(function() {
 $(function() {
 	$('#helloworld').append('hello world!');
 });
+
+
+/*! Responsive tags */
+/*! http://www.innovedesigns.com/web-development-guide/jquery-responsive-detecting-mobile-screens-width-height/ */
+function responsiveFn(objID) {
+     width = $( window ).width();
+     height = $( window ).height();
+     factor = 0.35;     
+  
+  // Executing Both width() and height()   
+  document.getElementById('objID').width=Math.floor(width*factor); 
+  document.getElementById('objID').height=Math.floor(height*factor); 
+ 
+  // Do a custom code here
+  //  if(width <= 480){
+  // document.getElementById('widthID').innerHTML+=" -> This is an Iphone Screen Size"; 
+  
+    }
+ }
+ 
