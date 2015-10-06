@@ -14,7 +14,7 @@ function responsiveFn(objID, margin) {
 
   // Executing Both width() and height()
   document.getElementById(objID).setAttribute('width',Math.floor(width*factor)+margin['left']+margin['right']);
-  document.getElementById(objID).setAttribute('height'Math.floor(height*factor)+margin['top']+margin['bottom']);
+  document.getElementById(objID).setAttribute('height',Math.floor(height*factor)+margin['top']+margin['bottom']);
 
   // Do a custom code here
   //  if(width <= 480){
