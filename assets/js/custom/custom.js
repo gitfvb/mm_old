@@ -4,7 +4,7 @@ function responsiveFn(objID, margin) {
 
   if (margin != undefined) {
     if (margin.assocArraySize != 4) {
-      var margin = {top: 0, right: 0, bottom: 0, left: 0},
+      var margin = {top: 0, right: 0, bottom: 0, left: 0};
     }
   }
 
