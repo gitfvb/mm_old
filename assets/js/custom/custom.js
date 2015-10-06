@@ -1,10 +1,5 @@
-$(function() {
-	$('#helloworld').append('hello world!');
-});
-
-
-/*! Responsive tags */
-/*! http://www.innovedesigns.com/web-development-guide/jquery-responsive-detecting-mobile-screens-width-height/ */
+// Responsive tags
+// http://www.innovedesigns.com/web-development-guide/jquery-responsive-detecting-mobile-screens-width-height/
 function responsiveFn(objID, margin) {
 
   if (margin != undefined) {
