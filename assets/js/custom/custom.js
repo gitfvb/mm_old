@@ -20,7 +20,7 @@ function responsiveFn(objID, margin) {
   //  if(width <= 480){
   // document.getElementById('widthID').innerHTML+=" -> This is an Iphone Screen Size";
 
-    }
+  //  }
  }
 
 // get the size of associative arrays
