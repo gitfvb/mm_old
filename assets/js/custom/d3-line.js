@@ -3,12 +3,12 @@
     data = d3.range(n).map(random);
     // first get the size from the window
     // if that didn't work, get it from the body
-var size = {
-      width: window.innerWidth || document.body.clientWidth,
-      height: window.innerHeight || document.body.clientHeight
-    }
+//var size = {
+//      width: window.innerWidth || document.body.clientWidth,
+//      height: window.innerHeight || document.body.clientHeight
+//    }
 var margin = {top: 20, right: 20, bottom: 20, left: 40},
-    width = (size.width * 0.375) - margin.left - margin.right,
+    width = 500 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 var x = d3.scale.linear()
     .domain([0, n - 1])
@@ -22,13 +22,15 @@ var line = d3.svg.line()
 var svg = d3.select("#d3-line").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
+    .attr("id","svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 svg.append("defs").append("clipPath")
     .attr("id", "clip")
   .append("rect")
     .attr("width", width)
-    .attr("height", height);
+    .attr("height", height)
+    .attr("id","rect");
 svg.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + y(0) + ")")
@@ -60,4 +62,5 @@ function tick() {
 }
 
 // load() event and resize() event are combined
-$(window).ready(responsiveFn('d3-line')).resize(responsiveFn('d3-line'));
+$(window).ready(responsiveFn('svg', {top: 20, right: 20, bottom: 20, left: 40})).resize(responsiveFn('svg', {top: 20, right: 20, bottom: 20, left: 40}));
+$(window).ready(responsiveFn('rect')).resize(responsiveFn('rect'));
