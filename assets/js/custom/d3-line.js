@@ -62,5 +62,5 @@ function tick() {
 }
 
 // load() event and resize() event are combined
-$(window).ready(responsiveFn('svg', {top: 20, right: 20, bottom: 20, left: 40})).resize(responsiveFn('svg', {top: 20, right: 20, bottom: 20, left: 40}));
-$(window).ready(responsiveFn('rect')).resize(responsiveFn('rect'));
+$(window).ready().resize(responsiveFn('svg', {top: 20, right: 20, bottom: 20, left: 40}));
+$(window).ready().resize(responsiveFn('rect'));
