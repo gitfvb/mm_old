@@ -16,13 +16,15 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 # Unternehmungen für Paare
 
 * [Kochkurs beim Maggi Kochstudio](https://www.maggi.de/maggi-kochstudio/treffs/frankfurt/Kochkurse)  
-  Jetzt echt! Man kann im Maggi Kochstudio auch selbst kochen. Dieser Abend war wirklich richtig gut organisiert und sehr lecker :-)
-* [Kochkurs beim Suhsi Circle](http://www.sushi-circle.de/kochkurse-bei-sushi-circle.html)  
+  Jetzt echt! Man kann im Maggi Kochstudio auch selbst kochen. Dieser Abend war wirklich richtig gut organisiert und sehr lecker :-)  
+
+* [Kochkurs beim Sushi Circle](http://www.sushi-circle.de/kochkurse-bei-sushi-circle.html)  
   Wer gerne Sushi mag. Dies kann man hier auch lernen.  
+
 * [Sternwarte Frankfurt](http://www.physikalischer-verein.de/index.php/sternwarte)  
-  Gerade ist die Sternwarte wegen Renovierung geschlossen. Sonst ist es aber eine super Gelegenheit, um einen professionellen Blick in die Sterne zu werfen.
+  Gerade ist die Sternwarte wegen Renovierung geschlossen. Sonst ist es aber eine super Gelegenheit, um einen professionellen Blick in die Sterne zu werfen.  
 * Main-Tower  
-  Hier kann man einen grandiosen Blick auf Frankfurt werfen
+  Hier kann man einen grandiosen Blick auf Frankfurt werfen.  
 
 ^
 
