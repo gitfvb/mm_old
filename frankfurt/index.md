@@ -15,24 +15,33 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 
 # Unternehmungen für Paare
 
-* [Kochkurs beim Maggi Kochstudio](https://www.maggi.de/maggi-kochstudio/treffs/frankfurt/Kochkurse)  Jetzt echt! Man kann im Maggi Kochstudio auch selbst kochen. Dieser Abend war wirklich richtig gut organisiert und sehr lecker :-)
-* [Kochkurs beim Suhsi Circle](http://www.sushi-circle.de/kochkurse-bei-sushi-circle.html)  Wer gerne Sushi mag. Dies kann man hier auch lernen.  
-* [Sternwarte Frankfurt](http://www.physikalischer-verein.de/index.php/sternwarte)  Gerade ist die Sternwarte wegen Renovierung geschlossen. Sonst ist es aber eine super Gelegenheit, um einen professionellen Blick in die Sterne zu werfen.
+* [Kochkurs beim Maggi Kochstudio](https://www.maggi.de/maggi-kochstudio/treffs/frankfurt/Kochkurse)
+  Jetzt echt! Man kann im Maggi Kochstudio auch selbst kochen. Dieser Abend war wirklich richtig gut organisiert und sehr lecker :-)
+* [Kochkurs beim Suhsi Circle](http://www.sushi-circle.de/kochkurse-bei-sushi-circle.html)
+  Wer gerne Sushi mag. Dies kann man hier auch lernen.  
+* [Sternwarte Frankfurt](http://www.physikalischer-verein.de/index.php/sternwarte)
+  Gerade ist die Sternwarte wegen Renovierung geschlossen. Sonst ist es aber eine super Gelegenheit, um einen professionellen Blick in die Sterne zu werfen.
 
 * Main-Tower  Hier kann man einen grandiosen Blick auf Frankfurt werfen.
 
 # Unternehmungen für Familien
 
-* [Wildpark alte Fasanerie](www.erlebnis-wildpark.de)  Ein toller Wildtier-Park, wo die Tiere viel Platz haben.
-* [Fasanerie Wiesbaden](fasanerie.net/)  Kostenloser Eintritt.
-* [Lochmühle](http://www.lochmuehle.de/)  Ein Freizeit-Park, bei dem alle Kinder ab 1 Jahr voll auf ihre Kosten kommen.
-* [Hessenpark](http://www.hessenpark.de/)  Ein toller Park, in dem viele aufwendig restaurierte Fachwerkhäuser und auch andere Gebäude stehen.
-* [Saalburg-Museum](http://www.saalburgmuseum.de/)  Ein altes Römerkastell.
+* [Wildpark alte Fasanerie](www.erlebnis-wildpark.de)
+  Ein toller Wildtier-Park, wo die Tiere viel Platz haben.
+* [Fasanerie Wiesbaden](fasanerie.net/)
+  Kostenloser Eintritt.
+* [Lochmühle](http://www.lochmuehle.de/)
+  Ein Freizeit-Park, bei dem alle Kinder ab 1 Jahr voll auf ihre Kosten kommen.
+* [Hessenpark](http://www.hessenpark.de/)
+  Ein toller Park, in dem viele aufwendig restaurierte Fachwerkhäuser und auch andere Gebäude stehen.
+* [Saalburg-Museum](http://www.saalburgmuseum.de/)
+  Ein altes Römerkastell.
 
 
 # Unternehmungen für Singles
 
-* [Volkshochschule Frankfurt](https://www.vhs.frankfurt.de/)  Hier kann man eine Menge lernen. Ich habe hier inhaltlich an meinen Präsentationsfähigkeiten gearbeitet und dort sogar auch meine Frau kennengelernt :-)
+* [Volkshochschule Frankfurt](https://www.vhs.frankfurt.de/)
+  Hier kann man eine Menge lernen. Ich habe hier inhaltlich an meinen Präsentationsfähigkeiten gearbeitet und dort sogar auch meine Frau kennengelernt :-)
 
 # Action
 
