@@ -23,6 +23,7 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 
 * [Sternwarte Frankfurt](http://www.physikalischer-verein.de/index.php/sternwarte)  
   Gerade ist die Sternwarte wegen Renovierung geschlossen. Sonst ist es aber eine super Gelegenheit, um einen professionellen Blick in die Sterne zu werfen.  
+
 * Main-Tower  
   Hier kann man einen grandiosen Blick auf Frankfurt werfen.  
 
@@ -31,15 +32,19 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 # Unternehmungen für Familien
 
 * [Wildpark alte Fasanerie](www.erlebnis-wildpark.de)  
-  Ein toller Wildtier-Park, wo die Tiere viel Platz haben.
+  Ein toller Wildtier-Park, wo die Tiere viel Platz haben.  
+  
 * [Fasanerie Wiesbaden](fasanerie.net/)  
-  Kostenloser Eintritt.
+  Kostenloser Eintritt.  
+
 * [Lochmühle](http://www.lochmuehle.de/)  
-  Ein Freizeit-Park, bei dem alle Kinder ab 1 Jahr voll auf ihre Kosten kommen.
+  Ein Freizeit-Park, bei dem alle Kinder ab 1 Jahr voll auf ihre Kosten kommen.  
+
 * [Hessenpark](http://www.hessenpark.de/)  
-  Ein toller Park, in dem viele aufwendig restaurierte Fachwerkhäuser und auch andere Gebäude stehen.
+  Ein toller Park, in dem viele aufwendig restaurierte Fachwerkhäuser und auch andere Gebäude stehen.  
+
 * [Saalburg-Museum](http://www.saalburgmuseum.de/)  
-  Ein altes Römerkastell.
+  Ein altes Römerkastell.  
 
 ^
 
@@ -62,21 +67,25 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 # Events
 
 * [Dippemess](http://www.dippemess.de/)  
-  Ein großes Volksfest, das im Frühjahr und Herbst veranstaltet wird.
+  Ein großes Volksfest, das im Frühjahr und Herbst veranstaltet wird.  
+
 * [Stoffel Festival](www.stalburg.de/stoffel/info/)  
-  Vier Wochen Musik und Theater auf einer Park-Wiese in Frankfurt. Kostenloser Eintritt.
+  Vier Wochen Musik und Theater auf einer Park-Wiese in Frankfurt. Kostenloser Eintritt.  
+
 * [Bad Vilbeler Markt](http://www.bad-vilbel-markt.de/)  
   Ein Volksfest in Bad Vilbel im August.
+
 * [Flohmarkt am Frischezentrum](http://www.flohmarkt-frankfurt.com/flohmarkt-frischezentrum-frankfurt-kalbach/)  
-  Den Keller mal etwas leerer machen und dabei Geld verdienen. Zwar liegt der Gewinn bekanntermaßen im Einkauf, aber am Frischezentrum ist immer richtig viel los. So kann man einen guten Umsatz erreichen. Empfehlenswert: Vorher online für einen Platz registrieren.
+  Den Keller mal etwas leerer machen und dabei Geld verdienen. Zwar liegt der Gewinn bekanntermaßen im Einkauf, aber am Frischezentrum ist immer richtig viel los. So kann man einen guten Umsatz erreichen. Empfehlenswert: Vorher online für einen Platz registrieren.  
+
 * Darüber hinaus gibt es in der Umgebung viele Feste, bei denen sich ein Besuch lohnt. Hier in der Region heißt dies meistens "Kerb". Letztens war ich auf dem Weinfest in der Bad Vilbeler Burg. Dies kann ich nur stark empfehlen.
 
 ^
 
 
 # Parken in Frankfurt
- * Gerbermühle
- * Westhafen
+ * Gerbermühle  
+ * Westhafen  
  * Zoo Frankfurt  
    Hier findet man meist relativ schnell einen guten Parkplatz. Man muss nur genau auf die Park-Schilder für Anwohner-Parken und deren zeitliche Einschränkung achten. Von hier aus ist man zu Fuß innerhalb von zehn Minuten an der Konstabler-Wache oder kommt mit der Straßen- und U-Bahn ganz schnell überall hin.
 
