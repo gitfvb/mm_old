@@ -33,7 +33,7 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 
 * [Wildpark alte Fasanerie](www.erlebnis-wildpark.de)  
   Ein toller Wildtier-Park, wo die Tiere viel Platz haben.  
-  
+
 * [Fasanerie Wiesbaden](fasanerie.net/)  
   Kostenloser Eintritt.  
 
@@ -85,7 +85,9 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 
 # Parken in Frankfurt
  * Gerbermühle  
+
  * Westhafen  
+
  * Zoo Frankfurt  
    Hier findet man meist relativ schnell einen guten Parkplatz. Man muss nur genau auf die Park-Schilder für Anwohner-Parken und deren zeitliche Einschränkung achten. Von hier aus ist man zu Fuß innerhalb von zehn Minuten an der Konstabler-Wache oder kommt mit der Straßen- und U-Bahn ganz schnell überall hin.
 
@@ -94,8 +96,11 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 
 # Messen
 
-* IAA
-* Büchermesse
-* Musikmesse
+* IAA  
+
+* Büchermesse  
+
+* Musikmesse  
+
 
 ^
