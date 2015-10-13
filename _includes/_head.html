@@ -44,13 +44,12 @@
 <link href='{{ site.url }}/assets/css/fonts.css' rel='stylesheet' type='text/css'>
 
 <!-- Icons -->
-<!-- 16x16 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
-<!-- 32x32 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.png">
-<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<!-- ANDROID and CHROME -->
+<link rel="manifest" href="{{ site.url }}/images/favicon/manifest.json">
+<!-- MICROSOFT -->
+<meta name="msapplication-config" content="{{ site.url }}/images/favicon/browserconfig.xml" />
+<!-- APPLE -->
 <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/favicon/apple-icon-precomposed.png">
-<!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/favicon/apple-icon.png"> -->
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.url }}/images/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ site.url }}/images/favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/images/favicon/apple-icon-72x72.png">
@@ -60,6 +59,12 @@
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/favicon/apple-icon-144x144.png">
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.url }}/images/favicon/apple-icon-152x152.png">
 <link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ site.url }}/images/favicon/apple-icon-180x180.png">
+<!-- OTHERS -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="{{ site.url }}/favicon.png">
+
 
 
 <!-- http://stackoverflow.com/questions/2754391/embed-javascript-in-markdown -->
