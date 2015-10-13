@@ -22,7 +22,7 @@ Dann besser kleinere Daten-Mengen über verschlüsselte E-Mails austauschen. Gr�
 
 # Immerhin kann man sicherer sein
 
-Man ist nie sicher vor Gefahren und Spitzeln, aber man verwendet besser Geräte, deren Hersteller einen Namen haben und denen man eher vertrauen kann. Man stelle sich vor, ein etablierter Festplatten- oder Stick-Hersteller verbreitet Schädlinge. Der Schaden wäre ähnlich fatal wie Manipulationen an Dieselmotor-Software. Darauf muss man als Laie vertrauen...
+Man ist nie sicher vor Gefahren und Spitzeln, aber man verwendet besser Geräte, deren Hersteller einen Namen haben und denen man eher vertrauen kann. Man stelle sich vor, ein etablierter Festplatten- oder Stick-Hersteller verbreitet Schädlinge. Der Schaden wäre ähnlich fatal wie Manipulationen an Dieselmotor-Software. Was bleibt einem als Laie also anderes übrig, als zu vertrauen? 
 
 
 
