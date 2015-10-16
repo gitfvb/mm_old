@@ -24,7 +24,7 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 * [Sternwarte Frankfurt](http://www.physikalischer-verein.de/index.php/sternwarte)  
   Gerade ist die Sternwarte wegen Renovierung geschlossen. Sonst ist es aber eine super Gelegenheit, um einen professionellen Blick in die Sterne zu werfen.  
 
-* Main-Tower  
+* [Main-Tower](http://www.maintower.de/)  
   Hier kann man einen grandiosen Blick auf Frankfurt werfen.  
 
 ^
@@ -84,16 +84,19 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 
 
 # Parken in Frankfurt
+{::comment}
  * Gerbermühle  
 
  * Westhafen  
+
+{::/comment}
 
  * Zoo Frankfurt  
    Hier findet man meist relativ schnell einen guten Parkplatz. Man muss nur genau auf die Park-Schilder für Anwohner-Parken und deren zeitliche Einschränkung achten. Von hier aus ist man zu Fuß innerhalb von zehn Minuten an der Konstabler-Wache oder kommt mit der Straßen- und U-Bahn ganz schnell überall hin.
 
 ^
 
-
+{::comment}
 # Messen
 
 * IAA  
@@ -104,3 +107,4 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 
 
 ^
+{::/comment}
