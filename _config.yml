@@ -32,6 +32,9 @@ owner:
   bio: "Machs einfach..."
   avatar: bio-photo-3.jpg
   xing: Florian_vonBracht
+  disqus-shortname: dataflo
+  twitter: dataFloDE
+  linkedin: florianvonbracht
   github: gitfvb
   piwik:
     analytics: piwik.dataflo.de
