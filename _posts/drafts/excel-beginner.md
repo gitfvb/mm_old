@@ -1,0 +1,2 @@
+Shortcuts
+Pivot erklären
