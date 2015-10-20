@@ -55,8 +55,8 @@
 
 		// draw the svg canvas
 		// svg dimensions
-		var width = 880,
-			height = 500;
+		var width = responsiveFn("moon-viz"),
+			height = width*(880/500);
 
 		var svg = d3.select("body")
 					.select("#moon-viz")
@@ -340,8 +340,8 @@
 		// top part shows the Moon's shape during different phases
 		// bottom part shows a high level overview of eclipses
 
-		var width = 400, // width of this view is common
-			height = 500; // each view will share half of this height
+		var width = responsiveFn("alternate-view"), // width of this view is common
+			height = width*(400/500); // each view will share half of this height
 
 		// tracks the x,y co-ordinates of moon and earth shadow which are triangles
 		// the co-ordinate we will need is (x3,y3) which is the end that will touch the 'line of nodes'
