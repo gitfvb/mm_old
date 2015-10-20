@@ -150,3 +150,95 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .xml .hljs-cdata {
   opacity: 0.5;
 }
+
+
+
+
+
+
+
+.heading {
+  color: silver;
+  font-weight: bold;
+}
+.disclaimer {
+  font-size: 16px;
+  font-style: italic;
+  margin: 5px 0;
+}
+.legend {
+  fill: #ff00ff;
+  stroke: #ff00ff;
+}
+.timer {
+  fill: #00ff7f;
+  stroke: #00ff7f;
+}
+.highlight {
+  background: black;
+  color: #00ff7f;
+  font-size: 18px;
+  padding: 15px;
+  margin: 15px;
+  line-height: 28px;
+  border: thin solid #333333;
+}
+.text-center {
+  text-align: center;
+}
+#moon-viz {
+  background: black;
+  border: thin solid black;
+}
+#earth {
+  fill: #000099;
+}
+#alternate-view {
+  position: absolute;
+  left: 900px;
+  width: 400px;
+  height: 500px;
+  border: thin solid black;
+  background: black;
+}
+.continent {
+  fill: green;
+  stroke: green;
+  stroke-width: 3;
+}
+.x.axis path {
+  display: none;
+}
+.bottom.earth {
+  z-index: 1001;
+}
+.bottom.moon {
+  z-index: 101;
+}
+.star {
+  stroke-width: 1;
+  fill: white;
+  stroke: white;
+}
+  .star.new {
+    fill: blue;
+    stroke: blue;
+    stroke-width: 2;
+  }
+  .star.old {
+    fill: tomato;
+    stroke: tomato;
+    stroke-width: 2;
+  }
+.star.dim {
+  fill: #505050;
+  stroke: #505050;
+}
+.no-svg {
+  background: red;
+  color: white;
+  text-align: center;
+}
+.glow {
+  color: yellow;
+}
