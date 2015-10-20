@@ -34,18 +34,3 @@ Die nächste totale Mondfinsternis wird in Deutschland übrigens erst wieder am 
 <text x="770" y="40" class="phase timer"></text>
 
 </svg>
-
-<svg id="alternate-view">
-
-<text x="350" y="40" class="legend">Fig a</text>
-<text x="20" y="40" class="phase timer"></text>
-
-
-<text x="350" y="270" class="legend">Fig b</text>
-<text x="20" y="270" class="eclipse timer" id="eclipse-timer">Month 1</text>
-
-<path id="earth-shadow" style="stroke: grey" />
-<path id="moon-shadow" style="stroke: grey" />
-</svg>
-
-<div id="no-svg"></div>

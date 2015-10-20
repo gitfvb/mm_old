@@ -169,8 +169,8 @@
 								.style("fill-opacity", "0.64");
 
 		// draw the moon path which is an ellipse
-		var mp_rx = 250, // rx for moon path
-			mp_ry = 150; // ry for moon path
+		var mp_rx = responsiveFn("moon-viz")*(250/880), // rx for moon path
+			mp_ry = mp_rx*(150/250); // ry for moon path
 
 
 		var moon_path = d3.select("#moon-viz")
