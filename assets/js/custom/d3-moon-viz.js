@@ -16,7 +16,7 @@
 
 	// add a warning if the browser does not support svg (or any other necessary features)
 	if (!Modernizr.svg) {
-		
+
 		// svg was not detected by the modernizr; add a warning.
 		var warning = d3.select("#no-svg");
 		var w_text  = "Your browser does not seem to support svg. Please use any modern browser like Chrome or Firefox.";
@@ -43,16 +43,16 @@
 		// animates the background stars (adds and removes few random stars)
 		setInterval( starShow, 10000 );
 
-	}	
+	}
 
 	// **************************************************************************************************************************
 
 	function drawMainView() {
 
-		
+
 		// this module draws the main left visual
 		// shows the Moon's position during different phases
-		
+
 		// draw the svg canvas
 		// svg dimensions
 		var width = 880,
@@ -62,7 +62,7 @@
 					.select("#moon-viz")
 					.attr("width", width)
 					.attr("height", height);
-		
+
 		svg.append("g").attr("id", "moon-viz-grouping");
 
 		// draw the earth which is an circle
@@ -228,7 +228,7 @@
 		var start = {
 			moon: 180, // start in the full moon position; left end
 			earth: 0
-		}; // start positions 
+		}; // start positions
 
 		// AXIS rotation speeds of moon and earth
 		var speed = {};
@@ -239,7 +239,7 @@
 
 		// get a reference for 'updateMoonPosition' which animates moon's position in left and top right visual
 		// Through closures, we will able to access all the variables and data from this scope.
-		// This reference is later called outside of this scope for animating. 
+		// This reference is later called outside of this scope for animating.
 		moonViz.updateMoonPhaseView = updateMoonPosition;
 
 		// updates the left main visual and top right visual
@@ -260,7 +260,7 @@
 			// we are dealing with a 'g' element holding the moon. g element needs a translate position
 			var x = mp_rx * Math.cos(radian) - (width/2 - mp_rx + 2*msize);
 			var y = -mp_ry * Math.sin(radian);
-			
+
 			// moon is rotated around its orbit
 			moon.attr("transform", "translate("+x+","+y+")");
 
@@ -268,16 +268,16 @@
 			var to_rotate = start.moon%360;
 
 			// the base co-ordinate to rotate with; it will fall in the co-ordinate (mp_rx, 0) in the right end of x-axis of ellipse
-			var nx = +(width/2) + mp_rx, 
+			var nx = +(width/2) + mp_rx,
 				ny = +(height/2);
 
 			// moon is rotated around its axis
 			moon.select("g")
 				.attr("transform", "rotate(-"+to_rotate+", "+nx+", "+ny+")");
-			
+
 			// 'fine' factor, controls the speed of moon revolution
 			// Also this same angle is used for moon's rotation around its orbit and axis, thus simulating 'tidal locking'
-			start.moon += speed.moon; 
+			start.moon += speed.moon;
 
 			// update the moon phase view in the sidebar
 			var proxy_moon = {
@@ -288,23 +288,23 @@
 
 			// for the first 180 deg Moon is waxing, the next 180 deg Moon is waning.
 			var proxy_pos = (angle - 180)/180 * ( 2*proxy_moon.radius ),
-				ref_pos;  
+				ref_pos;
 
 			if (proxy_pos < 0) {
 				ref_pos = proxy_moon.position - 2*proxy_moon.radius;
 			} else {
 				ref_pos = proxy_moon.position + 2*proxy_moon.radius;
 			}
-								
+
 			proxy_moon.el.attr("cx", ref_pos - proxy_pos);
 
 			// update the phase timer; actual moon orbit time is 29.5 days; tweak that info to the timer
-			var phase_time = (p_time = +Math.ceil(29.5 - ((360-angle)/360)*29.5)) == 30 ? 29.5 : p_time; 
+			var phase_time = (p_time = +Math.ceil(29.5 - ((360-angle)/360)*29.5)) == 30 ? 29.5 : p_time;
 
 			d3.selectAll(".phase.timer")
 				.text("Day " + phase_time);
 
-			// rotate the earth around its axis; 
+			// rotate the earth around its axis;
 
 			var to_rotate = start.earth%360;
 
@@ -312,7 +312,7 @@
 			d3.select("#earth")
 				.attr("transform", "rotate(-"+to_rotate+", "+ex+","+ey+" )");
 
-			
+
 			start.earth += speed.earth;
 
 		}
@@ -356,7 +356,7 @@
 			earth: {
 				x1: 0, y1: 0,
 				x2: 0, y2: 0,
-				x3: 0, y3: 0	
+				x3: 0, y3: 0
 			}
 
 		};
@@ -391,13 +391,13 @@
 
 			// proxy moon which overlaps the main moon to give the phase view
 			proxy: ''
-		
+
 		};
 
-		// this is the main visible moon 
+		// this is the main visible moon
 		topMoon.main = top_view.append("circle")
 										.attr("id", "top-moon")
-										.attr("cx", width/2 ) 
+										.attr("cx", width/2 )
 										.attr("cy", 0.5*(height/2) ) // middle of the upper half
 										.attr("r", topMoon.size)
 										.style("fill", "white");
@@ -406,13 +406,13 @@
 
 		// proxy moon -> this will overlap the main moon to give the Moon phase visuals
 		// inital proxy moon position will be to the right of the moon, revealing it completely
-		
-		var proxy_pos = 2*topMoon.size; 
+
+		var proxy_pos = 2*topMoon.size;
 		var initial_pos = width/2;
 
 		topMoon.proxy = top_view.append("circle")
 										.attr("id", "top-proxy-moon")
-										.attr("cx", initial_pos + proxy_pos ) // initial position will not hide the moon 
+										.attr("cx", initial_pos + proxy_pos ) // initial position will not hide the moon
 										.attr("cy", 0.5*(height/2) ) // middle of the bottom half
 										.attr("r", topMoon.size)
 										.style("fill", "black");
@@ -444,11 +444,11 @@
 					.append("g")
 					.attr("id", "moon-plane");
 
-		// bottom moon orbit; 
+		// bottom moon orbit;
 		// an ellipse which will vary in its x radius to simulate the oscillation of moon's ecliptic plane
 
 		var earth = {
-			
+
 			size: 10,
 
 			orbit: {
@@ -456,7 +456,7 @@
 				y: 80
 			},
 
-			angle: 180, // start angle 
+			angle: 180, // start angle
 
 			co_ords: {},
 
@@ -475,7 +475,7 @@
 									.attr("rx", earth.orbit.x)
 									.attr("ry", earth.orbit.y)
 									.style("fill", "none")
-									.style("stroke", "grey"); 
+									.style("stroke", "grey");
 
 		earth.el = bottom_view.select("#earth-plane")
 							.append("circle")
@@ -508,7 +508,7 @@
 			speed: 3
 
 		};
-		
+
 		var moon_orbit = bottom_view.select("#moon-plane")
 									.append("ellipse")
 									.attr("rx", moon.orbit.x)
@@ -552,7 +552,7 @@
 
 		function revolveEarth () {
 
-			var angle = earth.angle%360; 
+			var angle = earth.angle%360;
 			var radian = (angle/360)*(2*Math.PI);
 
 			// redefine height for the bottom view part
@@ -584,13 +584,13 @@
 
 				// relative position
 				x3 : -earth.size,
-				y3 : earth.shadow 
+				y3 : earth.shadow
 			};
 
-			// draw the earth shadow; 
+			// draw the earth shadow;
 			var earth_shadow = d3.select("#earth-shadow")
 									.attr("d", function(){
-										
+
 										var x1, y1, x2, y2, x3, y3;
 
 										// absolute position
@@ -637,7 +637,7 @@
 
 			moon.el.attr("cx", x).attr("cy", y);
 
-			var shadow_angle = Math.ceil(+270 - (earth.angle%360)); 
+			var shadow_angle = Math.ceil(+270 - (earth.angle%360));
 
 			var earth_x = +earth.el.attr("cx");
 			var earth_y = +earth.el.attr("cy");
@@ -663,10 +663,10 @@
 				y3 : moon.shadow
 			};
 
-			// draw the earth shadow; 
+			// draw the earth shadow;
 			var moon_shadow = d3.select("#moon-shadow")
 									.attr("d", function(){
-										
+
 										var x1, y1, x2, y2, x3, y3;
 
 										// absolute position
@@ -685,7 +685,7 @@
 
 										// moon passes through the line of nodes
 										if (shadow_angle == 0 || shadow_angle == 180) {
-											
+
 											// get the ceiled co-ordinates at line of nodes
 											var ceiled = {
 												moon: Math.ceil(x1 - x3),
@@ -699,7 +699,7 @@
 													.transition().style("stroke", "tomato").style("stroke-width", "1").duration(4000);
 											}
 
-										} 
+										}
 
 										return path;
 									})
@@ -723,7 +723,7 @@
 		var canvas = d3.select("#starCanvas");
 
 		// dimensions of the canvas
-		var width = 880, 
+		var width = 880,
 			height = 500;
 
 		if ( starData.length == 0 ) {
@@ -753,7 +753,7 @@
 		} else {
 
 			// create new stars
-			count = 0; 
+			count = 0;
 			limit = 50;
 
 			starData = starData.slice( 0, starData.length - limit );
@@ -795,38 +795,60 @@
 		}
 
 	} // end of starShow module
- 
+
 	// ***************************************************************************************************************************
 
 } )();
- 
+
 // requestAnimationFrame polyfill for browsers that doesn't support
-// ref: https://gist.github.com/paulirish/1579671 
+// ref: https://gist.github.com/paulirish/1579671
 (function() {
-	 
-	// requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel	 
+
+	// requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel
 	// MIT license
 
     var lastTime = 0;
     var vendors = ['ms', 'moz', 'webkit', 'o'];
     for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
         window.requestAnimationFrame = window[vendors[x]+'RequestAnimationFrame'];
-        window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame'] 
+        window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame']
                                    || window[vendors[x]+'CancelRequestAnimationFrame'];
     }
- 
+
     if (!window.requestAnimationFrame)
         window.requestAnimationFrame = function(callback, element) {
             var currTime = new Date().getTime();
             var timeToCall = Math.max(0, 16 - (currTime - lastTime));
-            var id = window.setTimeout(function() { callback(currTime + timeToCall); }, 
+            var id = window.setTimeout(function() { callback(currTime + timeToCall); },
               timeToCall);
             lastTime = currTime + timeToCall;
             return id;
         };
- 
+
     if (!window.cancelAnimationFrame)
         window.cancelAnimationFrame = function(id) {
             clearTimeout(id);
         };
 }());
+
+
+
+
+
+
+/*
+
+function combinedResponsiveFn() {
+  responsiveFn('svg', {top: 20, right: 20, bottom: 20, left: 40});
+  responsiveFn('rect');
+}
+
+// load() event and resize() event are combined
+$(window)
+.ready(function() {
+  combinedResponsiveFn();
+})
+.resize(function() {
+  combinedResponsiveFn();
+});
+*/
