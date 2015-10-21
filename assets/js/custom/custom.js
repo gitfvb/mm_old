@@ -1,4 +1,4 @@
-function calcNewWidth() {
+function calcNewWidth(margin) {
 
   if (margin != undefined) {
     if ($.assocArraySize(margin) != 4) {
