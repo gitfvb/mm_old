@@ -836,11 +836,13 @@
 
 
 
-/*
+
 
 function combinedResponsiveFn() {
-  responsiveFn('svg', {top: 20, right: 20, bottom: 20, left: 40});
-  responsiveFn('rect');
+	responsiveFn("moon-viz");
+	responsiveFn("alternate-view");
+	//responsiveFn('svg', {top: 20, right: 20, bottom: 20, left: 40});
+  //responsiveFn('rect');
 }
 
 // load() event and resize() event are combined
@@ -851,4 +853,3 @@ $(window)
 .resize(function() {
   combinedResponsiveFn();
 });
-*/

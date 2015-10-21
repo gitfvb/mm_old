@@ -1,6 +1,5 @@
-// Responsive tags
-// http://www.innovedesigns.com/web-development-guide/jquery-responsive-detecting-mobile-screens-width-height/
-function responsiveFn(objID, margin) {
+function calcNewWidth() {
+
   if (margin != undefined) {
     if ($.assocArraySize(margin) != 4) {
       var margin = {top: 0, right: 0, bottom: 0, left: 0};
@@ -15,6 +14,12 @@ function responsiveFn(objID, margin) {
 
   newWidth = Math.floor(width*factor)+margin['left']+margin['right'];
 
+  return newWidth;
+
+}
+
+function responsiveWidth(objID, margin) {
+  newWidth = calcNewWidth(margin);
   document.getElementById(objID).setAttribute('width',newWidth);
   //document.getElementById(objID).setAttribute('height',Math.floor(height*factor)+margin['top']+margin['bottom']);
 
@@ -22,7 +27,6 @@ function responsiveFn(objID, margin) {
   //  if(width <= 480){
   // document.getElementById('widthID').innerHTML+=" -> This is an Iphone Screen Size";
   //  }
-  return newWidth;
 }
 
 // get the size of associative arrays
