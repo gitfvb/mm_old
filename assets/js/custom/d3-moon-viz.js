@@ -835,7 +835,7 @@
 
 
 
-
+/*
 
 
 function combinedResponsiveFn() {
@@ -853,3 +853,5 @@ $(window)
 .resize(function() {
   combinedResponsiveFn();
 });
+
+*/
