@@ -89,7 +89,7 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 
  * Westhafen  
 
-{::/comment}
+{:/comment}
 
  * Zoo Frankfurt  
    Hier findet man meist relativ schnell einen guten Parkplatz. Man muss nur genau auf die Park-Schilder für Anwohner-Parken und deren zeitliche Einschränkung achten. Von hier aus ist man zu Fuß innerhalb von zehn Minuten an der Konstabler-Wache oder kommt mit der Straßen- und U-Bahn ganz schnell überall hin.
@@ -107,4 +107,4 @@ Hier hinterlasse ich hin- und wieder ein paar Tipps und Links für Frankfurt und
 
 
 ^
-{::/comment}
+{:/comment}
